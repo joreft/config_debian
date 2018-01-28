@@ -162,7 +162,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # Executables
-bindsym Mod4+l exec cinnamon-screensaver-command -l
+bindsym Mod4+l exec i3lock -i ~/.config/i3/lock_screen.png
 
 # Cosmetics
 new_window pixel 2 
