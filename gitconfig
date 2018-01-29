@@ -6,3 +6,6 @@
 	tool = kdiff3
 [merge]
 	tool = kdiff3
+[user]
+	name = Jørn Efteland
+	email = joreft@gmail.com
