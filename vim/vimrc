@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'https://github.com/kien/ctrlp.vim'
+"Plugin 'https://github.com/octol/vim-cpp-enhanced-highlight'
+Plugin 'https://github.com/altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -30,10 +32,13 @@ filetype plugin indent on    " required
 
 
 " Plugin specific configs
-map <C-t> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 
 let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang-3.8.so.1'
 au CompleteDone * pclose
+
+
+
 " Tabstuff
 set tabstop=4
 set shiftwidth=4
@@ -50,4 +55,27 @@ noremap <c-down> ddp
 set scrolloff=15
 set number
 set background=dark
+set hlsearch
+hi Search guibg=LightBlue
+"<Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
+
 syntax on
+
+" CPP syntax stuff
+"let g:cpp_class_decl_highlight = 1
+
+" Colors
+syntax enable
+set background=dark
+colorscheme elflord
+
+" Shell config because Vundle complains.
+set shell=/bin/bash
+
+
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
