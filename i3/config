@@ -171,7 +171,8 @@ new_float normal
 # Color schemes
 client.focused #75ed71 #75ed71 #75ed71 #75ed71 #75ed71 
 client.focused #0d54c6 #0d54c6 #0d54c6 #0d54c6 #0d54c6
-#client.focused_inactive #bb87bc #bb87bc #bb87bc #bb87bc #bb87bc
+client.focused_inactive #000000 #000000 #000000 #000000 #000000 
+client.unfocused #000000 #000000 #000000 #000000 #000000 
 #client.focused_inactive #f6b0fc #f6b0fc #f6b0fc #f6b0fc #f6b0fc 
 
 bar {
@@ -182,8 +183,8 @@ background #000000
 statusline #ffffff
     separator #666666
 
-    focused_workspace  #000000 #53a5e0 #000000
-    active_workspace   #333333 #0d54c6 #ffffff
+    active_workspace  #000000 #53a5e0 #000000
+    focused_workspace   #000000 #0d54c6 #ffffff
     inactive_workspace #000000 #222222 #000000
     urgent_workspace   #2f343a #900000 #ffffff
     binding_mode       #2f343a #900000 #ffffff
