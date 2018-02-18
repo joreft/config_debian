@@ -12,7 +12,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'https://github.com/kien/ctrlp.vim'
-"Plugin 'https://github.com/octol/vim-cpp-enhanced-highlight'
 Plugin 'https://github.com/altercation/vim-colors-solarized'
 Plugin 'https://github.com/rust-lang/rust.vim'
 
