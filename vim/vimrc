@@ -14,6 +14,8 @@ Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'https://github.com/altercation/vim-colors-solarized'
 Plugin 'https://github.com/rust-lang/rust.vim'
+Plugin 'https://github.com/davidhalter/jedi-vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

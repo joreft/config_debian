@@ -1,4 +1,4 @@
-# Make sure all folders are created beforehand
+# Make sure all folders are created beforehand (this script doesn't)
 repo_name=$(pwd)
 
 # Then symlink
