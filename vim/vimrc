@@ -39,7 +39,7 @@ map <C-n> :NERDTreeToggle<CR>
 let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang-3.8.so.1'
 au CompleteDone * pclose
 
-
+let g:ctrlp_working_path_mode = 'ra'
 
 " Tabstuff
 set tabstop=4
