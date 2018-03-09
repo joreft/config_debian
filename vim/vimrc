@@ -35,6 +35,7 @@ filetype plugin indent on    " required
 
 " Plugin specific configs
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang-3.8.so.1'
 au CompleteDone * pclose
